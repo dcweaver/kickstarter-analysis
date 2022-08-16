@@ -12,17 +12,17 @@ The purpose of this analysis was to help Louise look at how her campaign for her
 
 The first goal of the analysis was to determine which month to set a launch date for Louise's campaign in order to have the highest chance of successfully funding her play. In order to accomplish this, first the YEAR() function was used to extract the launch year of every kickstarter campaign in the data set. From there, a pivot table was created from the data. By filtering the pivot table to show only kickstarters for plays, the category that Louise would be launching hers as, selecting launch month as the rows, and selecting the columns to show all possible outcomes for kickstarters, the pivot table below was created.
 
-![](images/pivotTable1-03.png){width="228"} ![](images/pivotFields1-01.png){width="210"}
+![](Resources/pivotTable1.png){width="246"} ![](Resources/pivotFields1.png){width="228"}
 
 From this pivot table, a line chart was created to visualize the outcomes of Theater kickstarters, as shown below.
 
-![](images/lineChart1-01.png){width="428"}
+![](Resources/lineChart1.png){width="398"}
 
 ### Analysis of Outcomes Based on Goals
 
 The next goal of the analysis was to determine how successful relevant kickstarters have been based on what their funding goal was set to be. In order to accomplish this, first a new worksheet was created and the columns shown below were created to hold the data we are looking for.
 
-![](images/goalColumns-01.png){width="645"}
+![](Resources/goalColumns.png){width="564"}
 
 From here, the columns were created and range from less than 1000 to 50000 or more, jumping by increments of \~4999. In order to populate this new table we created, COUNTIF() functions were used to populate the first three columns. The COUNTIF() functions used for the first three columns are shown below.
 
@@ -40,11 +40,11 @@ The next column, total projects, was populated using a SUM() function, adding to
 
 Shown below is the final table for determining outcomes based on goal.
 
-![](images/goalTable-01.png){width="539"}
+![](Resources/goalTable.png){width="472"}
 
 Lastly, a line chart was created from this table, comparing the percentage of successful, failed, and cancelled based on what the goal was set to. The y-axis was set to the percentage, and the x-axis was set to show different goal ranges. The graph is shown below.
 
-![](images/goalLineChart-01.png){width="536"}
+![](Resources/goalLineChart.png){width="556"}
 
 ### Challenges and Difficulties Encountered
 
