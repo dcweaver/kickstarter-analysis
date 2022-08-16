@@ -10,7 +10,7 @@ The purpose of this analysis was to help Louise look at how her campaign for her
 
 #### Analysis of Outcomes Based on Launch Date
 
-The first goal of the analysis was to determine which month to set a launch date for Louise's campaign in order to have the highest chance of successfully funding her play. In order to accomplish this, first the YEAR() function was used to extract the launch year of every kickstarter campaign in the data set. From there, a pivot table was created from the data. By filtering the pivot table to show only kickstarters for plays, the category that Louise would be launching hers as, selecting launch month as the rows, and selecting the columns to show all possible outcomes for kickstarters, the pivot table below was created.
+The first goal of the analysis was to determine which month to set a launch date for a kickstarter campaign in order to have the highest chance of successfully funding the play. In order to accomplish this, first the YEAR() function was used to extract the launch year of every kickstarter campaign in the data set. From there, a pivot table was created from the data. By filtering the pivot table to show only kickstarters for plays, the category that Louise would be launching hers as, selecting launch month as the rows, and selecting the columns to show all possible outcomes for kickstarters, the pivot table below was created.
 
 ![](Resources/pivotTable1.png){width="246"} ![](Resources/pivotFields1.png){width="228"}
 
